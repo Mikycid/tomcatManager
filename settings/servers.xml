@@ -1,0 +1,1 @@
+<servers><TOMCAT10><deploy-path>/usr/share/apache-tomcat-10/webapps</deploy-path><api-path>/usr/share/apache-tomcat-10/lib/servlet-api.jar</api-path></TOMCAT10></servers>

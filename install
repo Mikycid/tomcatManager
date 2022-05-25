@@ -1,0 +1,9 @@
+#!/bin/bash
+
+SCRIPT=$(readlink -f "$0")
+WD=$(dirname "$SCRIPT")
+cd $WD
+sudo cp tomcatManager /usr/bin
+sudo chmod +x /usr/bin/tomcatManager
+sudo mkdir /usr/share/tomcatManager
+sudo cp -r ./* /usr/share/tomcatManager

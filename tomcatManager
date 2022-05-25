@@ -1,0 +1,2 @@
+source /home/mike/Projects/tomcatManager/venv/bin/activate
+pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY PATH=$PATH python3 /home/mike/Projects/tomcatManager/main.py
